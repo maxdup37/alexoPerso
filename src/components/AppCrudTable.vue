@@ -45,11 +45,12 @@
         <v-spacer />
         <v-btn
           color="primary"
+          prepend-icon="mdi-plus"
           @click="createItemFunction"
           :disabled="loading"
-        >
-          Ajouter
-        </v-btn>
+          variant="flat"
+          text="ADD"
+        />
       </v-toolbar>
     </template>
     <template v-slot:no-data>

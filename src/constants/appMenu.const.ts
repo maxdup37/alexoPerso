@@ -10,8 +10,8 @@ export const appMenuConsultConst = [
     icon: 'mdi-airplane',
   },
   {
-    name: 'Zones',
-    url: '/zones',
+    name: 'UserModel',
+    url: '/users',
     icon: 'mdi-vector-circle',
   },
   {
